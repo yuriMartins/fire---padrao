@@ -11,7 +11,7 @@ function App() {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [user, setUser] = useState(false);
-  const [userLogged, setUserLogged] = useState({});
+  const [userLogged, setUserLogged] = useState({}); 
 
 
   useEffect(()=>{
